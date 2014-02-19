@@ -1,0 +1,138 @@
+.topo{
+
+	
+	background-color:rgb(215,228,189);
+	width: 100%;
+	height: 20%; 
+	
+
+}
+
+.menu_lateral{
+
+	background-color:rgb(215,228,189);
+	width: 20%;
+	height: 80%; 
+	float: left;
+	 
+
+}
+.conteudo{
+	
+	overflow: scroll;
+	position:static; 
+	background-color:rgb(238,236,225);
+	width: 80%;
+	height: 80%; 
+	float: left;
+	border-bottom: 5%;
+
+
+}
+.btn{
+	min-width: 50%;
+	min-height: 10%;
+	max-height:inherit;
+	max-width:inherit;
+	background-color: green;
+	border-radius: 5px;
+		
+}
+.btn_disabled{
+	color: silver;
+}
+.btn_,
+.btn,
+.btn_sair,
+.btn_button,
+.btn_disabled{
+	
+	
+	color: white;
+	cursor: pointer;
+	border-color: rgb(217,230,192);
+	
+}
+
+.btn:hover,
+.btn_button:hover{
+	opacity: 0.8;
+	
+}
+
+.btn_[type="submit"],
+.btn_[type="reset"],
+.btn_button{
+
+	
+	width: auto;
+	height: auto;
+	border-color: rgb(217,230,192);
+	border-radius: 5px;
+
+}
+
+
+.btn_[type="submit"],
+.btn_button{
+	background-color: green;
+}
+
+.btn_[type="reset"]{
+	/*
+	background-color: orange;
+	*/
+	background-color: rgb(228,48,48);
+}
+
+.btn_sair{
+	width: auto;
+	height: auto;
+	max-height:inherit;
+	max-width:inherit;
+	background-color: rgb(228,48,48);
+	border-radius: 50%;
+}  
+
+
+
+.pagina_login{
+
+	background-color:rgba(215,228,189,0.70);
+	width: 100%;
+	margin-top: 10%; 
+	border-radius: 20px;
+	*zoom: 1;
+
+}
+.pagina{
+	background-color:rgb(238,236,225);
+	
+}
+.input-large{
+
+width: 15%;
+height: auto;
+border-radius: 5px;
+
+
+
+}
+
+
+label,
+input,
+button,
+select,
+textarea {
+	
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 25px;
+  border-bottom: 50%;
+}
+
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
