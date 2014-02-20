@@ -12,7 +12,7 @@ http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
 			<property name="hibernate.format_sql" value="true" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
 			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
-			<property name="hibernate.connection.url" value="jdbc:mysql://localhost/vraptor_sisbolsa?useUnicode=yes" />
+			<property name="hibernate.connection.url" value="jdbc:mysql://localhost/vraptor_diario_notas?useUnicode=yes" />
 			<property name="hibernate.connection.username" value="root" />
 			<property name="hibernate.connection.password" value="root" />
 		</properties>
